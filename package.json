@@ -1,0 +1,12 @@
+{
+  "name": "compliance-platform",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "install:all": "cd server && npm install && cd ../client && npm install",
+    "seed": "cd server && npm run seed",
+    "start": "cd server && npm start",
+    "dev": "cd server && npm start & cd client && npm run dev",
+    "build": "cd client && npm run build"
+  }
+}
