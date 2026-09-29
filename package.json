@@ -1,0 +1,14 @@
+{
+  "name": "compliance-assurance-platform",
+  "version": "1.0.0",
+  "description": "企业内控合规测评平台 - 反舞弊/数据安全/采购红线 学习测评与留痕系统",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "node server/index.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "*",
+    "express": "*"
+  }
+}
